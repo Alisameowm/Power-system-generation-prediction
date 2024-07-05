@@ -65,7 +65,7 @@ def creat_dataset(dataset, look_back=30):#根据时间序列构建建模所需�
     return np.array(dataX), np.array(dataY)
 
 
-dataframe = pd.read_excel('dataset.xlsx')
+dataframe = pd.read_excel('testdata.xlsx')
 
 
 #pd.read_excel   读取excel的数据
